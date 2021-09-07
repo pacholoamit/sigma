@@ -1,5 +1,5 @@
-import 'package:cassandra/constants/theme.dart';
-import 'package:cassandra/pages/login_page.dart';
+import 'package:sigma/constants/theme.dart';
+import 'package:sigma/pages/login_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {

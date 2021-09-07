@@ -1,4 +1,4 @@
-# cassandra
+# sigma
 
 A new Flutter project.
 

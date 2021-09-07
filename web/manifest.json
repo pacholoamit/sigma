@@ -1,6 +1,6 @@
 {
-    "name": "cassandra",
-    "short_name": "cassandra",
+    "name": "sigma",
+    "short_name": "sigma",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

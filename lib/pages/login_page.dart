@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sigma/constants/graphics.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -11,14 +12,31 @@ class LoginPage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            _usernameField(context),
-            SizedBox(height: 8),
-            _passwordField(context),
-            SizedBox(height: 48),
-            _loginButton()
+            _mainLogoSection(context),
+            _loginFormLayout(context),
           ],
         ),
       ),
+    );
+  }
+
+  Widget _mainLogoSection(BuildContext context) {
+    return Container(
+      child: mainGraphics.mainLogo,
+      height: 300,
+    );
+  }
+
+  Widget _loginFormLayout(BuildContext context) {
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        _usernameField(context),
+        SizedBox(height: 8),
+        _passwordField(context),
+        SizedBox(height: 48),
+        _loginButton()
+      ],
     );
   }
 
